@@ -4,8 +4,8 @@ from typing import List, Union
 import rich
 from pydantic import BaseModel
 
-import openai
-from openai import OpenAI
+import openai_161
+from openai_161 import OpenAI
 
 
 class Table(str, Enum):

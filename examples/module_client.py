@@ -1,4 +1,4 @@
-import openai
+import openai_161 as openai
 
 # will default to `os.environ['OPENAI_API_KEY']` if not explicitly set
 openai.api_key = "..."

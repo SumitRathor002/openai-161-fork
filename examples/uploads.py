@@ -3,7 +3,7 @@ from pathlib import Path
 
 import rich
 
-from openai import OpenAI
+from openai_161 import OpenAI
 
 # generate this file using `./generate_file.sh`
 file = Path("/tmp/big_test_file.txt")

@@ -1,6 +1,6 @@
 import asyncio
 
-from openai.lib.azure import AzureOpenAI, AsyncAzureOpenAI, AzureADTokenProvider, AsyncAzureADTokenProvider
+from openai_161.lib.azure import AzureOpenAI, AsyncAzureOpenAI, AzureADTokenProvider, AsyncAzureADTokenProvider
 
 scopes = "https://cognitiveservices.azure.com/.default"
 

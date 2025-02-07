@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from openai import OpenAI
+from openai_161 import OpenAI
 
 # gets OPENAI_API_KEY from your environment variables
 openai = OpenAI()

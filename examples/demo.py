@@ -1,6 +1,6 @@
 #!/usr/bin/env -S poetry run python
 
-from openai import OpenAI
+from openai_161 import OpenAI
 
 # gets API Key from environment variable OPENAI_API_KEY
 client = OpenAI()

@@ -3,7 +3,7 @@ from typing import List
 import rich
 from pydantic import BaseModel
 
-from openai import OpenAI
+from openai_161 import OpenAI
 
 
 class Step(BaseModel):

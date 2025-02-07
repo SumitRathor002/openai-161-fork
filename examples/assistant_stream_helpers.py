@@ -2,11 +2,11 @@ from __future__ import annotations
 
 from typing_extensions import override
 
-import openai
-from openai import AssistantEventHandler
-from openai.types.beta import AssistantStreamEvent
-from openai.types.beta.threads import Text, TextDelta
-from openai.types.beta.threads.runs import RunStep, RunStepDelta
+import openai_161
+from openai_161 import AssistantEventHandler
+from openai_161.types.beta import AssistantStreamEvent
+from openai_161.types.beta.threads import Text, TextDelta
+from openai_161.types.beta.threads.runs import RunStep, RunStepDelta
 
 
 class EventHandler(AssistantEventHandler):
