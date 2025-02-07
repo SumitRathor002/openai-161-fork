@@ -36,11 +36,11 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/openai/openai-python"
-Repository = "https://github.com/openai/openai-python"
+Homepage = "https://github.com/SumitRathor002/openai-161-fork/"
+Repository = "https://github.com/SumitRathor002/openai-161-fork/"
 
 [project.scripts]
-openai = "openai.cli:main"
+openai_161 = "openai_161.cli:main"
 
 [project.optional-dependencies]
 realtime = ["websockets >= 13, < 15"]
@@ -108,7 +108,7 @@ include = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/openai"]
+packages = ["src/openai_161"]
 
 [tool.hatch.build.targets.sdist]
 # Basically everything except hidden files/directories (such as .github, .devcontainers, .python-version, etc)
@@ -216,7 +216,7 @@ length-sort = true
 length-sort-straight = true
 combine-as-imports = true
 extra-standard-library = ["typing_extensions"]
-known-first-party = ["openai", "tests"]
+known-first-party = ["openai_161", "tests"]
 
 [tool.ruff.lint.per-file-ignores]
 "bin/**.py" = ["T201", "T203"]
